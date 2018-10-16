@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E999FD62176682300198A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FD52176682300198A70 /* AppDelegate.swift */; };
+		3E999FD82176682300198A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FD72176682300198A70 /* ViewController.swift */; };
+		3E999FDB2176682300198A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E999FD92176682300198A70 /* Main.storyboard */; };
+		3E999FDD2176682300198A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E999FDC2176682300198A70 /* Assets.xcassets */; };
+		3E999FE02176682300198A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E999FDE2176682300198A70 /* LaunchScreen.storyboard */; };
+		3E999FEB2176682300198A70 /* SoleekLabTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FEA2176682300198A70 /* SoleekLabTaskTests.swift */; };
+		3E999FF62176682300198A70 /* SoleekLabTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FF52176682300198A70 /* SoleekLabTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E999FE72176682300198A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E999FCA2176682300198A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E999FD12176682300198A70;
+			remoteInfo = SoleekLabTask;
+		};
+		3E999FF22176682300198A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E999FCA2176682300198A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E999FD12176682300198A70;
+			remoteInfo = SoleekLabTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E999FD22176682300198A70 /* SoleekLabTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoleekLabTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E999FD52176682300198A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E999FD72176682300198A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E999FDA2176682300198A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E999FDC2176682300198A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E999FDF2176682300198A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E999FE12176682300198A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E999FE62176682300198A70 /* SoleekLabTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleekLabTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E999FEA2176682300198A70 /* SoleekLabTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleekLabTaskTests.swift; sourceTree = "<group>"; };
+		3E999FEC2176682300198A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E999FF12176682300198A70 /* SoleekLabTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleekLabTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E999FF52176682300198A70 /* SoleekLabTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleekLabTaskUITests.swift; sourceTree = "<group>"; };
+		3E999FF72176682300198A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E999FCF2176682300198A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E999FE32176682300198A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E999FEE2176682300198A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E999FC92176682300198A70 = {
+			isa = PBXGroup;
+			children = (
+				3E999FD42176682300198A70 /* SoleekLabTask */,
+				3E999FE92176682300198A70 /* SoleekLabTaskTests */,
+				3E999FF42176682300198A70 /* SoleekLabTaskUITests */,
+				3E999FD32176682300198A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E999FD32176682300198A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E999FD22176682300198A70 /* SoleekLabTask.app */,
+				3E999FE62176682300198A70 /* SoleekLabTaskTests.xctest */,
+				3E999FF12176682300198A70 /* SoleekLabTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E999FD42176682300198A70 /* SoleekLabTask */ = {
+			isa = PBXGroup;
+			children = (
+				3E999FD52176682300198A70 /* AppDelegate.swift */,
+				3E999FD72176682300198A70 /* ViewController.swift */,
+				3E999FD92176682300198A70 /* Main.storyboard */,
+				3E999FDC2176682300198A70 /* Assets.xcassets */,
+				3E999FDE2176682300198A70 /* LaunchScreen.storyboard */,
+				3E999FE12176682300198A70 /* Info.plist */,
+			);
+			path = SoleekLabTask;
+			sourceTree = "<group>";
+		};
+		3E999FE92176682300198A70 /* SoleekLabTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E999FEA2176682300198A70 /* SoleekLabTaskTests.swift */,
+				3E999FEC2176682300198A70 /* Info.plist */,
+			);
+			path = SoleekLabTaskTests;
+			sourceTree = "<group>";
+		};
+		3E999FF42176682300198A70 /* SoleekLabTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E999FF52176682300198A70 /* SoleekLabTaskUITests.swift */,
+				3E999FF72176682300198A70 /* Info.plist */,
+			);
+			path = SoleekLabTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E999FD12176682300198A70 /* SoleekLabTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E999FFA2176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTask" */;
+			buildPhases = (
+				3E999FCE2176682300198A70 /* Sources */,
+				3E999FCF2176682300198A70 /* Frameworks */,
+				3E999FD02176682300198A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoleekLabTask;
+			productName = SoleekLabTask;
+			productReference = 3E999FD22176682300198A70 /* SoleekLabTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E999FE52176682300198A70 /* SoleekLabTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E999FFD2176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskTests" */;
+			buildPhases = (
+				3E999FE22176682300198A70 /* Sources */,
+				3E999FE32176682300198A70 /* Frameworks */,
+				3E999FE42176682300198A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E999FE82176682300198A70 /* PBXTargetDependency */,
+			);
+			name = SoleekLabTaskTests;
+			productName = SoleekLabTaskTests;
+			productReference = 3E999FE62176682300198A70 /* SoleekLabTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E999FF02176682300198A70 /* SoleekLabTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E99A0002176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskUITests" */;
+			buildPhases = (
+				3E999FED2176682300198A70 /* Sources */,
+				3E999FEE2176682300198A70 /* Frameworks */,
+				3E999FEF2176682300198A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E999FF32176682300198A70 /* PBXTargetDependency */,
+			);
+			name = SoleekLabTaskUITests;
+			productName = SoleekLabTaskUITests;
+			productReference = 3E999FF12176682300198A70 /* SoleekLabTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E999FCA2176682300198A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mino;
+				TargetAttributes = {
+					3E999FD12176682300198A70 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R7ZGAK5G6L;
+						ProvisioningStyle = Automatic;
+					};
+					3E999FE52176682300198A70 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R7ZGAK5G6L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E999FD12176682300198A70;
+					};
+					3E999FF02176682300198A70 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R7ZGAK5G6L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E999FD12176682300198A70;
+					};
+				};
+			};
+			buildConfigurationList = 3E999FCD2176682300198A70 /* Build configuration list for PBXProject "SoleekLabTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E999FC92176682300198A70;
+			productRefGroup = 3E999FD32176682300198A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E999FD12176682300198A70 /* SoleekLabTask */,
+				3E999FE52176682300198A70 /* SoleekLabTaskTests */,
+				3E999FF02176682300198A70 /* SoleekLabTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E999FD02176682300198A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E999FE02176682300198A70 /* LaunchScreen.storyboard in Resources */,
+				3E999FDD2176682300198A70 /* Assets.xcassets in Resources */,
+				3E999FDB2176682300198A70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E999FE42176682300198A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E999FEF2176682300198A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E999FCE2176682300198A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E999FD82176682300198A70 /* ViewController.swift in Sources */,
+				3E999FD62176682300198A70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E999FE22176682300198A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E999FEB2176682300198A70 /* SoleekLabTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E999FED2176682300198A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E999FF62176682300198A70 /* SoleekLabTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E999FE82176682300198A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E999FD12176682300198A70 /* SoleekLabTask */;
+			targetProxy = 3E999FE72176682300198A70 /* PBXContainerItemProxy */;
+		};
+		3E999FF32176682300198A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E999FD12176682300198A70 /* SoleekLabTask */;
+			targetProxy = 3E999FF22176682300198A70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E999FD92176682300198A70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E999FDA2176682300198A70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E999FDE2176682300198A70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E999FDF2176682300198A70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E999FF82176682300198A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E999FF92176682300198A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E999FFB2176682300198A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = SoleekLabTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.SoleekLabTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E999FFC2176682300198A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = SoleekLabTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.SoleekLabTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E999FFE2176682300198A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = SoleekLabTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.SoleekLabTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoleekLabTask.app/SoleekLabTask";
+			};
+			name = Debug;
+		};
+		3E999FFF2176682300198A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = SoleekLabTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.SoleekLabTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoleekLabTask.app/SoleekLabTask";
+			};
+			name = Release;
+		};
+		3E99A0012176682300198A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = SoleekLabTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.SoleekLabTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoleekLabTask;
+			};
+			name = Debug;
+		};
+		3E99A0022176682300198A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = SoleekLabTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.SoleekLabTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoleekLabTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E999FCD2176682300198A70 /* Build configuration list for PBXProject "SoleekLabTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E999FF82176682300198A70 /* Debug */,
+				3E999FF92176682300198A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E999FFA2176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E999FFB2176682300198A70 /* Debug */,
+				3E999FFC2176682300198A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E999FFD2176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E999FFE2176682300198A70 /* Debug */,
+				3E999FFF2176682300198A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E99A0002176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E99A0012176682300198A70 /* Debug */,
+				3E99A0022176682300198A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E999FCA2176682300198A70 /* Project object */;
+}
