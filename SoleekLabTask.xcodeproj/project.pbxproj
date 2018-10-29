@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0573EF2185FC390081C944 /* CountriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0573EE2185FC390081C944 /* CountriesListViewController.swift */; };
+		3E0573F12185FCBA0081C944 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0573F02185FCBA0081C944 /* CountryCell.swift */; };
+		3E1043EE2177C0E4009B84BE /* country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1043ED2177C0E4009B84BE /* country.swift */; };
 		3E999FD62176682300198A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FD52176682300198A70 /* AppDelegate.swift */; };
 		3E999FD82176682300198A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FD72176682300198A70 /* ViewController.swift */; };
 		3E999FDB2176682300198A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E999FD92176682300198A70 /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		3E999FE02176682300198A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E999FDE2176682300198A70 /* LaunchScreen.storyboard */; };
 		3E999FEB2176682300198A70 /* SoleekLabTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FEA2176682300198A70 /* SoleekLabTaskTests.swift */; };
 		3E999FF62176682300198A70 /* SoleekLabTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E999FF52176682300198A70 /* SoleekLabTaskUITests.swift */; };
+		3E99A0062176EE4700198A70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99A0052176EE4700198A70 /* LoginViewController.swift */; };
+		3E99A0082176EFC700198A70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E99A0072176EFC700198A70 /* GoogleService-Info.plist */; };
+		3E99A00A2176F74500198A70 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99A0092176F74500198A70 /* RegistrationViewController.swift */; };
+		4DE821D323E8851851D003A3 /* Pods_SoleekLabTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55DE37AB8FFFB6D665F61AF /* Pods_SoleekLabTask.framework */; };
+		7BA62C17F734967395941785 /* Pods_SoleekLabTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F139A651DDBD8BB7E754BD8 /* Pods_SoleekLabTaskTests.framework */; };
+		7D3CEFE47B160634616A64CF /* Pods_SoleekLabTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8B1D6C503E8CF6173F51F /* Pods_SoleekLabTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		177334786B2B66BDE8C86827 /* Pods-SoleekLabTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleekLabTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoleekLabTaskTests/Pods-SoleekLabTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CAC64F9B201C77064DC6704 /* Pods-SoleekLabTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleekLabTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoleekLabTaskTests/Pods-SoleekLabTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F139A651DDBD8BB7E754BD8 /* Pods_SoleekLabTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoleekLabTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0573EE2185FC390081C944 /* CountriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesListViewController.swift; sourceTree = "<group>"; };
+		3E0573F02185FCBA0081C944 /* CountryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		3E1043ED2177C0E4009B84BE /* country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = country.swift; sourceTree = "<group>"; };
+		3E1043EF2178D007009B84BE /* SoleekLabTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoleekLabTask.entitlements; sourceTree = "<group>"; };
 		3E999FD22176682300198A70 /* SoleekLabTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoleekLabTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E999FD52176682300198A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E999FD72176682300198A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,15 @@
 		3E999FF12176682300198A70 /* SoleekLabTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleekLabTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E999FF52176682300198A70 /* SoleekLabTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleekLabTaskUITests.swift; sourceTree = "<group>"; };
 		3E999FF72176682300198A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E99A0052176EE4700198A70 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3E99A0072176EFC700198A70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E99A0092176F74500198A70 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4113626E67FA94A8C390F97D /* Pods-SoleekLabTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleekLabTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoleekLabTaskUITests/Pods-SoleekLabTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80F8B1D6C503E8CF6173F51F /* Pods_SoleekLabTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoleekLabTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C75504DD597F05D1FB7692 /* Pods-SoleekLabTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleekLabTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoleekLabTaskUITests/Pods-SoleekLabTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C11DBB530AA56AEFDE09DEE4 /* Pods-SoleekLabTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleekLabTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoleekLabTask/Pods-SoleekLabTask.release.xcconfig"; sourceTree = "<group>"; };
+		DEDFCEAB747DF1559A083FCC /* Pods-SoleekLabTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleekLabTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoleekLabTask/Pods-SoleekLabTask.debug.xcconfig"; sourceTree = "<group>"; };
+		E55DE37AB8FFFB6D665F61AF /* Pods_SoleekLabTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoleekLabTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE821D323E8851851D003A3 /* Pods_SoleekLabTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA62C17F734967395941785 /* Pods_SoleekLabTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3CEFE47B160634616A64CF /* Pods_SoleekLabTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,8 @@
 				3E999FE92176682300198A70 /* SoleekLabTaskTests */,
 				3E999FF42176682300198A70 /* SoleekLabTaskUITests */,
 				3E999FD32176682300198A70 /* Products */,
+				9416B925D367C42CDBC9F87C /* Pods */,
+				947568FCEC21901E2A3DC119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +127,19 @@
 		3E999FD42176682300198A70 /* SoleekLabTask */ = {
 			isa = PBXGroup;
 			children = (
+				3E1043EF2178D007009B84BE /* SoleekLabTask.entitlements */,
 				3E999FD52176682300198A70 /* AppDelegate.swift */,
 				3E999FD72176682300198A70 /* ViewController.swift */,
 				3E999FD92176682300198A70 /* Main.storyboard */,
 				3E999FDC2176682300198A70 /* Assets.xcassets */,
 				3E999FDE2176682300198A70 /* LaunchScreen.storyboard */,
 				3E999FE12176682300198A70 /* Info.plist */,
+				3E99A0072176EFC700198A70 /* GoogleService-Info.plist */,
+				3E99A0052176EE4700198A70 /* LoginViewController.swift */,
+				3E99A0092176F74500198A70 /* RegistrationViewController.swift */,
+				3E1043ED2177C0E4009B84BE /* country.swift */,
+				3E0573EE2185FC390081C944 /* CountriesListViewController.swift */,
+				3E0573F02185FCBA0081C944 /* CountryCell.swift */,
 			);
 			path = SoleekLabTask;
 			sourceTree = "<group>";
@@ -125,6 +162,29 @@
 			path = SoleekLabTaskUITests;
 			sourceTree = "<group>";
 		};
+		9416B925D367C42CDBC9F87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFCEAB747DF1559A083FCC /* Pods-SoleekLabTask.debug.xcconfig */,
+				C11DBB530AA56AEFDE09DEE4 /* Pods-SoleekLabTask.release.xcconfig */,
+				1CAC64F9B201C77064DC6704 /* Pods-SoleekLabTaskTests.debug.xcconfig */,
+				177334786B2B66BDE8C86827 /* Pods-SoleekLabTaskTests.release.xcconfig */,
+				A2C75504DD597F05D1FB7692 /* Pods-SoleekLabTaskUITests.debug.xcconfig */,
+				4113626E67FA94A8C390F97D /* Pods-SoleekLabTaskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		947568FCEC21901E2A3DC119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E55DE37AB8FFFB6D665F61AF /* Pods_SoleekLabTask.framework */,
+				1F139A651DDBD8BB7E754BD8 /* Pods_SoleekLabTaskTests.framework */,
+				80F8B1D6C503E8CF6173F51F /* Pods_SoleekLabTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E999FFA2176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTask" */;
 			buildPhases = (
+				EF0AB0FBC3A71D54FDA05350 /* [CP] Check Pods Manifest.lock */,
 				3E999FCE2176682300198A70 /* Sources */,
 				3E999FCF2176682300198A70 /* Frameworks */,
 				3E999FD02176682300198A70 /* Resources */,
+				83779C11EBBF42D62EA40863 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E999FFD2176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskTests" */;
 			buildPhases = (
+				BDED69E1D8FB20C0F941F754 /* [CP] Check Pods Manifest.lock */,
 				3E999FE22176682300198A70 /* Sources */,
 				3E999FE32176682300198A70 /* Frameworks */,
 				3E999FE42176682300198A70 /* Resources */,
@@ -167,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E99A0002176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskUITests" */;
 			buildPhases = (
+				01CF3DCA04AEF9345108803D /* [CP] Check Pods Manifest.lock */,
 				3E999FED2176682300198A70 /* Sources */,
 				3E999FEE2176682300198A70 /* Frameworks */,
 				3E999FEF2176682300198A70 /* Resources */,
@@ -195,6 +259,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = R7ZGAK5G6L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					3E999FE52176682300198A70 = {
 						CreatedOnToolsVersion = 8.0;
@@ -236,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E999FE02176682300198A70 /* LaunchScreen.storyboard in Resources */,
+				3E99A0082176EFC700198A70 /* GoogleService-Info.plist in Resources */,
 				3E999FDD2176682300198A70 /* Assets.xcassets in Resources */,
 				3E999FDB2176682300198A70 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +327,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01CF3DCA04AEF9345108803D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoleekLabTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83779C11EBBF42D62EA40863 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoleekLabTask/Pods-SoleekLabTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoleekLabTask/Pods-SoleekLabTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDED69E1D8FB20C0F941F754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoleekLabTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF0AB0FBC3A71D54FDA05350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoleekLabTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E999FCE2176682300198A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1043EE2177C0E4009B84BE /* country.swift in Sources */,
+				3E0573EF2185FC390081C944 /* CountriesListViewController.swift in Sources */,
+				3E99A0062176EE4700198A70 /* LoginViewController.swift in Sources */,
 				3E999FD82176682300198A70 /* ViewController.swift in Sources */,
+				3E99A00A2176F74500198A70 /* RegistrationViewController.swift in Sources */,
 				3E999FD62176682300198A70 /* AppDelegate.swift in Sources */,
+				3E0573F12185FCBA0081C944 /* CountryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +569,10 @@
 		};
 		3E999FFB2176682300198A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDFCEAB747DF1559A083FCC /* Pods-SoleekLabTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoleekLabTask/SoleekLabTask.entitlements;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
 				INFOPLIST_FILE = SoleekLabTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,8 +584,10 @@
 		};
 		3E999FFC2176682300198A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11DBB530AA56AEFDE09DEE4 /* Pods-SoleekLabTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoleekLabTask/SoleekLabTask.entitlements;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
 				INFOPLIST_FILE = SoleekLabTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +599,7 @@
 		};
 		3E999FFE2176682300198A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAC64F9B201C77064DC6704 /* Pods-SoleekLabTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +615,7 @@
 		};
 		3E999FFF2176682300198A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177334786B2B66BDE8C86827 /* Pods-SoleekLabTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +631,7 @@
 		};
 		3E99A0012176682300198A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C75504DD597F05D1FB7692 /* Pods-SoleekLabTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
@@ -483,6 +646,7 @@
 		};
 		3E99A0022176682300198A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4113626E67FA94A8C390F97D /* Pods-SoleekLabTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
@@ -514,6 +678,7 @@
 				3E999FFC2176682300198A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E999FFD2176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +687,7 @@
 				3E999FFF2176682300198A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E99A0002176682300198A70 /* Build configuration list for PBXNativeTarget "SoleekLabTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +696,7 @@
 				3E99A0022176682300198A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
